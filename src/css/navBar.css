@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+}
+
+.navBar {
+    width: auto;
+    --h: 65px;
+    height: var(--h);
+
+    background-color: #B3B5BB;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navBarItem {
+    width: min-content;
+    height: var(--h);
+
+    background-color: transparent;
+    padding: 0 16px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    text-align: center;
+    color: #4c5050;
+    font-weight: 560;
+
+    display: flex;
+    align-items: center;
+}
+
+.navBarItem:hover {
+    background-color: #73757b;
+    color: #cdced7;
+}
