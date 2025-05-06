@@ -7,14 +7,15 @@ a {
     --h: 65px;
     height: var(--h);
 
-    background-color: #B3B5BB;
-
     display: flex;
     justify-content: flex-end;
+
+    border-bottom: solid #d4d4d4 1px;
 }
 
 .logo {
     height: var(--h);
+    padding-left: 8px;
 }
 
 .navBarItem {
@@ -27,7 +28,7 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
     text-align: center;
-    color: #4c5050;
+    color: #3B82F6;
     font-weight: 560;
 
     display: flex;
@@ -35,10 +36,10 @@ a {
 }
 
 .navBarItem:hover {
-    background-color: #73757b;
-    color: #cdced7;
+    background-color: #1E3A8A;
+    color: #F5DD3B;
 }
 
 .active {
-    background-color: #9a9ca3;
+    background-color: #d4d4d4;
 }
