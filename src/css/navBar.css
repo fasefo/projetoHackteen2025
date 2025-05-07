@@ -17,8 +17,19 @@
 
 .logo {
     width: 100px;
+
+    padding-top: 7px;
+    padding-right: 10px;
+}
+
+.name {
     padding-top: 10px;
     padding-right: 10px;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;
+    color: rgb(209, 209, 209);
 }
 
 ul.nav {
