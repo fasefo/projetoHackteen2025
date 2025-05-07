@@ -33,10 +33,16 @@ ul.nav li {
     font-family: Helvetica, Arial;
     text-decoration: none;
     font-weight: bold;
+
+    border-radius: 10px;
 }
 
 ul.nav li:hover {
     background-color: rgb(101, 101, 101);
+}
+
+#active {
+    background-color: rgb(156, 156, 156);
 }
 
 ul.nav a {
