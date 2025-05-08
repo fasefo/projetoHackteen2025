@@ -4,7 +4,7 @@
 .prd{
     display: flex;
     border: 2px solid black;
-    display: flex; flex-direction: column;
+    flex-direction: column;
     margin-left: 30px;
 }
 .spa{

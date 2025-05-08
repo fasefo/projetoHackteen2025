@@ -61,18 +61,15 @@
           Contatos
         </div>
 
-        <p class="generalText">
-          +55 (015) 00000-0000
-          <br>
-
         <form id="emailForm">
-          <label for="subject">Subject:</label><br>
+          Entre em contato por example@gmail.com : <br><br>
+          <label for="subject">Assunto:</label><br>
           <input type="text" id="subject" name="subject"><br><br>
 
-          <label for="body">Body:</label><br>
+          <label for="body">Texto:</label><br>
           <textarea id="body" name="body" rows="5" cols="40"></textarea><br><br>
 
-          <button type="button" onclick="sendEmail()">Send Email</button>
+          <button type="button" onclick="sendEmail()">Enviar e-mail</button>
         </form>
 
         <script>
@@ -84,8 +81,10 @@
             window.location.href = mailtoLink;
           }
         </script>
-        
-        Entre em contato em <a href="mailto:example@gmail.com">example@gmail.com</a>
+
+        <br>
+        <p class="generalText">
+          +55 (015) 00000-0000
         </p>
       </div>
 
