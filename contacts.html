@@ -64,7 +64,28 @@
         <p class="generalText">
           +55 (015) 00000-0000
           <br>
-          Entre em contato em <a href="mailto:example@gmail.com">example@gmail.com</a>
+
+        <form id="emailForm">
+          <label for="subject">Subject:</label><br>
+          <input type="text" id="subject" name="subject"><br><br>
+
+          <label for="body">Body:</label><br>
+          <textarea id="body" name="body" rows="5" cols="40"></textarea><br><br>
+
+          <button type="button" onclick="sendEmail()">Send Email</button>
+        </form>
+
+        <script>
+          function sendEmail() {
+            const subject = encodeURIComponent(document.getElementById('subject').value);
+            const body = encodeURIComponent(document.getElementById('body').value);
+            const mailtoLink = `mailto:example@gmail.com?subject=${subject}&body=${body}`;
+
+            window.location.href = mailtoLink;
+          }
+        </script>
+        
+        Entre em contato em <a href="mailto:example@gmail.com">example@gmail.com</a>
         </p>
       </div>
 
