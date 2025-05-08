@@ -1,81 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Conversor Base64</title>
-  <link rel="stylesheet" href="src/css/style.css" />
-  <link rel="stylesheet" href="src/css/navBar.css" />
-  <link rel="stylesheet" href="src/css/pageBody.css" />
-  <link rel="stylesheet" href="src/css/produtos.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor Base64</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/navBar.css" />
+    <link rel="stylesheet" href="src/css/pageBody.css" />
+    <link rel="stylesheet" href="src/css/produtos.css" />
+  </head>
 
-<body>
-  <div id="container">
-    <div id="sideNavbar">
-      <a href="index.html">
-        <img src="/src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
-      </a>
-      <div class="name">LiteDevTools</div>
-      <nav>
-        <ul class="nav">
-          <a href="index.html"><li><span>Página Principal</span></li></a>
-          <a href="aboutUs.html"><li><span>Sobre nós</span></li></a>
-          <a href="products.html"><li><span>Produtos</span></li></a>
-          <a href="contacts.html"><li><span>Contatos</span></li></a>
-        </ul>
-      </nav>
-    </div>
-
-    <div id="pageBody">
-      <div class="title" style="margin-bottom: 30px;">
-        Conversor Base64 ⇄ Texto
+  <body>
+    <div id="container">
+      <div id="sideNavbar">
+        <a href="index.html">
+          <img src="/src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
+        </a>
+        <div class="name">LiteDevTools</div>
+        <nav>
+          <ul class="nav">
+            <a href="index.html">
+              <li><span>Página Principal</span></li>
+            </a>
+            <a href="aboutUs.html">
+              <li><span>Sobre nós</span></li>
+            </a>
+            <a href="products.html">
+              <li><span>Produtos</span></li>
+            </a>
+            <a href="contacts.html">
+              <li><span>Contatos</span></li>
+            </a>
+          </ul>
+        </nav>
       </div>
 
-      <div class="generalText" style="text-align: center;">
-        <!-- Texto para Base64 -->
-        <h2>Texto para Base64</h2>
-        <textarea id="textoInput" rows="4" cols="50" placeholder="Digite o texto..."></textarea><br>
-        <button onclick="converterParaBase64()">Converter</button>
-        <p id="resultadoBase64" style="margin-top: 15px; font-weight: bold; word-break: break-word;"></p>
+      <div id="pageBody">
+        <div class="title" style="margin-bottom: 30px;">
+          Conversor Base64 ⇄ Texto
+        </div>
 
-        <hr style="margin: 40px auto; width: 60%; border: none; border-top: 1px solid gray;" />
+        <div class="generalText" style="text-align: center;">
+          <!-- Texto para Base64 -->
+          <h2>Texto para Base64</h2>
+          <textarea id="textoInput" rows="4" cols="50" placeholder="Digite o texto..."></textarea><br>
+          <button onclick="converterParaBase64()">Converter</button>
+          <p id="resultadoBase64" style="margin-top: 15px; font-weight: bold; word-break: break-word;"></p>
 
-        <!-- Base64 para Texto -->
-        <h2>Base64 para Texto</h2>
-        <textarea id="base64Input" rows="4" cols="50" placeholder="Digite o base64..."></textarea><br>
-        <button onclick="converterParaTexto()">Converter</button>
-        <p id="resultadoTexto" style="margin-top: 15px; font-weight: bold; word-break: break-word;"></p>
+          <hr style="margin: 40px auto; width: 60%; border: none; border-top: 1px solid gray;" />
+
+          <!-- Base64 para Texto -->
+          <h2>Base64 para Texto</h2>
+          <textarea id="base64Input" rows="4" cols="50" placeholder="Digite o base64..."></textarea><br>
+          <button onclick="converterParaTexto()">Converter</button>
+          <p id="resultadoTexto" style="margin-top: 15px; font-weight: bold; word-break: break-word;"></p>
+        </div>
+
+        <script>
+          function converterParaBase64() {
+            const texto = document.getElementById("textoInput").value;
+            try {
+              const base64 = btoa(unescape(encodeURIComponent(texto)));
+              document.getElementById("resultadoBase64").textContent =
+                `Base64: ${base64}`;
+            } catch (e) {
+              document.getElementById("resultadoBase64").textContent =
+                "Erro ao converter. Verifique o texto inserido.";
+            }
+          }
+
+          function converterParaTexto() {
+            const base64 = document.getElementById("base64Input").value;
+            try {
+              const texto = decodeURIComponent(escape(atob(base64)));
+              document.getElementById("resultadoTexto").textContent =
+                `Texto: ${texto}`;
+            } catch (e) {
+              document.getElementById("resultadoTexto").textContent =
+                "Erro ao decodificar. Verifique se o base64 está correto.";
+            }
+          }
+        </script>
       </div>
-
-      <script>
-        function converterParaBase64() {
-          const texto = document.getElementById("textoInput").value;
-          try {
-            const base64 = btoa(unescape(encodeURIComponent(texto)));
-            document.getElementById("resultadoBase64").textContent =
-              `Base64: ${base64}`;
-          } catch (e) {
-            document.getElementById("resultadoBase64").textContent =
-              "Erro ao converter. Verifique o texto inserido.";
-          }
-        }
-
-        function converterParaTexto() {
-          const base64 = document.getElementById("base64Input").value;
-          try {
-            const texto = decodeURIComponent(escape(atob(base64)));
-            document.getElementById("resultadoTexto").textContent =
-              `Texto: ${texto}`;
-          } catch (e) {
-            document.getElementById("resultadoTexto").textContent =
-              "Erro ao decodificar. Verifique se o base64 está correto.";
-          }
-        }
-      </script>
     </div>
-  </div>
-</body>
+  </body>
 
 </html>
