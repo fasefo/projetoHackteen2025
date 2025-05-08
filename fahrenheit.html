@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversor de Temperatura</title>
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet" href="src/css/navBar.css" />
+  <link rel="stylesheet" href="src/css/pageBody.css" />
+  <link rel="stylesheet" href="src/css/produtos.css" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="sideNavbar">
+      <a href="index.html">
+        <img src="/src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
+      </a>
+      <div class="name">LiteDevTools</div>
+      <nav>
+        <ul class="nav">
+          <a href="index.html"><li><span>Página Principal</span></li></a>
+          <a href="aboutUs.html"><li><span>Sobre nós</span></li></a>
+          <a href="products.html"><li><span>Produtos</span></li></a>
+          <a href="contacts.html"><li><span>Contatos</span></li></a>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="pageBody">
+      <div class="title" style="margin-bottom: 30px;">
+        Conversor de Temperatura °C → °F
+      </div>
+
+      <div class="generalText" style="text-align: center;">
+        <label for="celsius">Digite a temperatura em °C:</label>
+        <input type="number" id="celsius" />
+        <button onclick="converter()">Converter</button>
+        <p id="resultado" style="margin-top: 15px; font-weight: bold;"></p>
+      </div>
+
+      <script>
+        function converter() {
+          var celsius = document.getElementById("celsius").value;
+          var numero = parseFloat(celsius);
+
+          if (!isNaN(numero)) {
+            var fahrenheit = (numero * 9 / 5) + 32;
+            document.getElementById("resultado").textContent =
+              numero + "°C equivalem a " + fahrenheit.toFixed(2) + "°F";
+          } else {
+            document.getElementById("resultado").textContent =
+              "Por favor, insira uma temperatura válida.";
+          }
+        }
+      </script>
+    </div>
+  </div>
+</body>
+
+</html>

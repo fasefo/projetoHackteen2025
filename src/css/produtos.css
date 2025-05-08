@@ -1,0 +1,22 @@
+#colunass{
+    display: flex; flex-direction: row;
+}
+.prd{
+    display: flex;
+    border: 2px solid black;
+    display: flex; flex-direction: column;
+    margin-left: 30px;
+}
+.spa{
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    margin-top: -5px;
+    
+}
+.tipr{
+    font-size: 20px;
+}
+.imgprd{
+    border: 2px solid black;
+}
