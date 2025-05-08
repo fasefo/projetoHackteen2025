@@ -4,6 +4,7 @@
     align-items: center;
     margin-top: 40px;
     flex-grow: 1;
+    margin-right: 40px;
 }
 
 .sideTitle {
@@ -17,6 +18,7 @@
     text-align: center;
     font-size: 3em;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .generalText {
