@@ -23,6 +23,11 @@
     font-size: 2em;
 }
 
+.tool:hover {
+    background-color: rgb(101, 101, 101);
+    color: whitesmoke;
+}
+
 .toolImage {
     height: calc(var(--h) - 20px);
     aspect-ratio: 1;
