@@ -1,0 +1,41 @@
+#toolsList {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.tool {
+    display: flex;
+    align-items: center;
+
+    --h: 110px;
+    height: var(--h);
+
+    border-radius: 20px;
+    border: 2px solid rgb(101, 101, 101);
+
+    background-color: rgb(178, 178, 178);
+
+    margin-bottom: 20px;
+
+    color: rgb(35, 35, 35);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.toolImage {
+    height: calc(var(--h) - 20px);
+    aspect-ratio: 1;
+    padding: 0 20px;
+}
+
+@media (max-width: 690px) {
+    .tool {
+        --h: 80px;
+        font-size: 1.3em;
+    }
+}
+
+a {
+    text-decoration: none;
+}
