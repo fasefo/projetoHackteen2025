@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos</title>
+
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/navBar.css">
     <link rel="stylesheet" href="src/css/pageBody.css">
+    <link rel="stylesheet" href="src/css/contacts.css">
+
+    <script src="src/js/sendEmail.js"></script>
   </head>
 
   <body>
@@ -60,32 +64,32 @@
         <div class="title" style="margin: 0 0 55px;">
           Contatos
         </div>
+        <div class="sidewaysSectionOrganizer generalText">
+          <div>
+            <form id="emailForm">
+              Entre em contato por example@gmail.com : <br><br>
+              <label for="subject">Assunto:</label><br>
+              <input type="text" id="subject" name="subject"><br><br>
 
-        <form id="emailForm">
-          Entre em contato por example@gmail.com : <br><br>
-          <label for="subject">Assunto:</label><br>
-          <input type="text" id="subject" name="subject"><br><br>
+              <label for="body">Texto:</label><br>
+              <textarea id="body" name="body" rows="5" cols="40"></textarea><br><br>
 
-          <label for="body">Texto:</label><br>
-          <textarea id="body" name="body" rows="5" cols="40"></textarea><br><br>
+              <button type="button" onclick="sendEmail()">Enviar e-mail</button>
+            </form>
+          </div>
 
-          <button type="button" onclick="sendEmail()">Enviar e-mail</button>
-        </form>
-
-        <script>
-          function sendEmail() {
-            const subject = encodeURIComponent(document.getElementById('subject').value);
-            const body = encodeURIComponent(document.getElementById('body').value);
-            const mailtoLink = `mailto:example@gmail.com?subject=${subject}&body=${body}`;
-
-            window.location.href = mailtoLink;
-          }
-        </script>
-
-        <br>
-        <p class="generalText">
-          +55 (015) 00000-0000
-        </p>
+          <div>
+            <p>
+              Whattsapp:
+              <br>
+              +55 (000) 00000-0000
+              <br><br>
+              Instagram:
+              <br>
+              @litedevtools
+            </p>
+          </div>
+        </div>
       </div>
 
     </div>
