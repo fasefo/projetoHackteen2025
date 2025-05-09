@@ -4,7 +4,13 @@
     align-items: center;
     margin-top: 40px;
     flex-grow: 1;
-    margin-right: 40px;
+    margin-right: 80px;
+}
+
+@media (max-width: 850px) {
+    #pageBody {
+        margin-right: 25px !important;
+    }
 }
 
 .sideTitle {
