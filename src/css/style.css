@@ -6,3 +6,16 @@ body {
     display: flex;
     font-family: Helvetica, Arial;
 }
+
+.lightBlue {
+    color: rgb(77, 202, 255);
+}
+
+.darkBlue {
+    color: rgb(0, 108, 152);
+}
+
+.redSmallWarning {
+    color: red;
+    font-size: 0.85em;
+}

@@ -35,6 +35,11 @@
 #subject,
 #body {
     width: 100%;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    box-shadow: 2px 2px 2px 1px rgba(60, 60, 60, 0.412);
 }
 
 #subject {
@@ -42,7 +47,22 @@
 }
 
 #emailButton {
-    width: 8em;
-    height: 4em;
+    width: 180px;
+    height: 75px;
     align-self: center;
+
+    background-color: rgb(77, 202, 255);
+
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(37, 37, 37);
+
+    border: none;
+    border-radius: 15px;
+
+    box-shadow: 2px 2px 2px 1px rgb(60, 60, 60);
+}
+
+#emailButton:hover {
+    cursor: pointer;
 }
