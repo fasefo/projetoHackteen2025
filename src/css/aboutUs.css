@@ -15,6 +15,26 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.division {
+  background-color: white;
+
+    padding: 5px 40px;
+    margin: 20px 0 40px;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.07);
+}
+
+@media (max-width: 900px) {
+    .sidewaysSectionOrganizer .division {
+      padding: 1px 20px;
+      margin: 5px 0 5px;
+    }
+    .sidewaysSectionOrganizer {
+      flex-wrap: wrap;
+    }
+}
+
 details {
   margin: 10px 0;
   padding: 10px;

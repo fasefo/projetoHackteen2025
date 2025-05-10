@@ -27,10 +27,11 @@ h2.title {
 }
 
 .generalText {
-    margin: 0 0 45px;
+    margin: 0 0 35px;
     font-size: 1.1em; 
     line-height: 1.6em; 
     color: #555;
+    text-align: justify;
 }
 
 .sidewaysSectionOrganizer {
