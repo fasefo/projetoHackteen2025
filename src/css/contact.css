@@ -2,7 +2,7 @@
     background-color: white;
 
     padding: 20px;
-    margin-top: 40px;
+    margin: 20px 0 40px;
 
     border-radius: 20px;
     box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.07);
@@ -15,4 +15,34 @@
 
 .sidewaysSectionOrganizer > * {
     padding: 0 10px;
+}
+
+@media (max-width: 900px) {
+    .sidewaysSectionOrganizer {
+        flex-direction: column;
+    }
+    .otherContact {
+    border-top: 2px solid #ccc;
+    border-left: none;
+    }
+}
+
+#emailForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#subject,
+#body {
+    width: 100%;
+}
+
+#subject {
+    height: 2em;
+}
+
+#emailButton {
+    width: 8em;
+    height: 4em;
+    align-self: center;
 }
