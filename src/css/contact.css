@@ -47,20 +47,20 @@
 }
 
 #emailButton {
-    width: 180px;
-    height: 75px;
+    width: 145px;
+    height: 62px;
     align-self: center;
 
-    background-color: rgb(77, 202, 255);
+    background-color: #ffffff9e;
 
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.8em;
     color: rgb(37, 37, 37);
 
-    border: none;
-    border-radius: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
 
-    box-shadow: 2px 2px 2px 1px rgb(60, 60, 60);
+    box-shadow: 2px 2px 2px 1px rgba(60, 60, 60, 0.412);
 }
 
 #emailButton:hover {
