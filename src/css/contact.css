@@ -1,0 +1,18 @@
+#feedbackWrapper {
+    background-color: white;
+
+    padding: 20px;
+    margin-top: 40px;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.07);
+}
+
+.otherContact {
+    padding: 0 20px;
+    border-left: 2px solid #ccc;
+}
+
+.sidewaysSectionOrganizer > * {
+    padding: 0 10px;
+}

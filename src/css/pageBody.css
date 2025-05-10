@@ -37,16 +37,5 @@
     display: flex; 
     justify-content: space-evenly;
     align-self: stretch;
-}
-subtitle {
-    font-size: 2em;
-    font-weight: bold;
-    margin: 0 0 20px;
-}
-.feedback{
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 40px;
+    gap: 40px;
 }

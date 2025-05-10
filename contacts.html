@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/navBar.css">
     <link rel="stylesheet" href="src/css/pageBody.css">
+    <link rel="stylesheet" href="src/css/contact.css">
 
     <script src="src/js/sendEmail.js"></script>
   </head>
@@ -56,49 +57,46 @@
           </ul>
         </nav>
 
+        <span id="copyright">
+          LiteDevTools &copy; 2025
+        </span>
+
       </div>
 
       <div id="pageBody">
-        <div class="feedback">
-        <div class="title" style="margin: 0 0 55px;">
-          Contatos
-        </div>
-        <div class="sidewaysSectionOrganizer generalText">
-          <div>
-            <form id="emailForm">
-              Entre em contato por example@gmail.com : <br><br>
-              <label for="subject">Assunto:</label><br>
-              <input type="text" id="subject" name="subject"><br><br>
+        <div id="feedbackWrapper">
+          <div class="title" style="margin: 0 0 55px;">
+            Contatos
+          </div>
+          <div class="sidewaysSectionOrganizer generalText">
+            <div class="emailContact">
+              <form id="emailForm">
+                Entre em contato por example@gmail.com : <br><br>
+                <label for="subject">Assunto:</label><br>
+                <input type="text" id="subject" name="subject"><br><br>
 
-              <label for="body">Texto:</label><br>
-              <textarea id="body" name="body" rows="5" cols="40"></textarea><br><br>
+                <label for="body">Texto:</label><br>
+                <textarea id="body" name="body" rows="5" cols="40"></textarea><br><br>
 
-              <button type="button" onclick="sendEmail()">Enviar e-mail</button>
-            </form>
+                <button type="button" onclick="sendEmail()">Enviar e-mail</button>
+              </form>
+            </div>
+
+            <div class="otherContact">
+              <p>
+                Whattsapp:
+                <br>
+                +55 (000) 00000-0000
+              </p>
+              <p>
+                Instagram:
+                <br>
+                @litedevtools
+              </p>
+            </div>
           </div>
 
-          <div>
-            <p>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-    
-              Whattsapp:
-              <br>
-              +55 (000) 00000-0000
-              <br><br>
-              Instagram:
-              <br>
-              @litedevtools
-            </p>
-          </div>
         </div>
-      
-      </div>
       </div>
     </div>
   </body>
