@@ -20,3 +20,7 @@ body {
     font-size: 0.85em;
     margin-bottom: 20px;
 }
+
+.pageWrapper {
+    max-width: 900px;
+}
