@@ -1,24 +1,23 @@
 .division {
   background-color: white;
 
-    padding: 5px 40px;
-    margin: 20px 0 40px;
+  padding: 5px 40px;
+  margin: 20px 0 40px;
 
-    border-radius: 20px;
-    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.07);
 }
 
 @media (max-width: 900px) {
-    .sidewaysSectionOrganizer .division {
-      padding: 1px 20px;
-      margin: 5px 0 5px;
-    }
-.sidewaysSectionOrganizer {
-  display: flex; 
-  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
-  justify-content: flex-start; /* Alinha os itens no início */
-}
-
+  .sidewaysSectionOrganizer .division {
+    padding: 1px 20px;
+    margin: 5px 0 5px;
+  }
+  .sidewaysSectionOrganizer {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: flex-start; /* Alinha os itens no início */
+  }
 }
 
 details {
@@ -26,10 +25,9 @@ details {
   padding: 10px;
   border-radius: 8px;
 }
-  
+
 summary {
   font-weight: bold;
   cursor: pointer;
   font-size: 2em;
 }
-  

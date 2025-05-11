@@ -1,68 +1,68 @@
 #feedbackWrapper {
-    background-color: white;
+  background-color: white;
 
-    padding: 20px;
-    margin: 20px 0 40px;
+  padding: 20px;
+  margin: 20px 0 40px;
 
-    border-radius: 20px;
-    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.07);
 }
 
 .otherContact {
-    padding: 0 20px;
-    border-left: 2px solid #ccc;
+  padding: 0 20px;
+  border-left: 2px solid #ccc;
 }
 
 .sidewaysSectionOrganizer > * {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 @media (max-width: 970px) {
-    .sidewaysSectionOrganizer {
-        flex-direction: column;
-    }
-    .otherContact {
+  .sidewaysSectionOrganizer {
+    flex-direction: column;
+  }
+  .otherContact {
     border-top: 2px solid #ccc;
     border-left: none;
-    }
+  }
 }
 
 #emailForm {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #subject,
 #body {
-    width: 100%;
-    
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
 
-    box-shadow: 2px 2px 2px 1px rgba(60, 60, 60, 0.412);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  box-shadow: 2px 2px 2px 1px rgba(60, 60, 60, 0.412);
 }
 
 #subject {
-    height: 2em;
+  height: 2em;
 }
 
 #emailButton {
-    width: 145px;
-    height: 62px;
-    align-self: center;
+  width: 145px;
+  height: 62px;
+  align-self: center;
 
-    background-color: #ffffff9e;
+  background-color: #ffffff9e;
 
-    font-size: 0.9em; 
-    line-height: 1.6em; 
-    color: #555;
+  font-size: 0.9em;
+  line-height: 1.6em;
+  color: #555;
 
-    border: 1px solid #ccc;
-    border-radius: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 
-    box-shadow: 2px 2px 2px 1px rgba(60, 60, 60, 0.412);
+  box-shadow: 2px 2px 2px 1px rgba(60, 60, 60, 0.412);
 }
 
 #emailButton:hover {
-    cursor: pointer;
+  cursor: pointer;
 }

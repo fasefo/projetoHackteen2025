@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Área e Perímetro do Círculo</title>
-  <link rel="stylesheet" href="src/css/style.css" />
-  <link rel="stylesheet" href="src/css/navBar.css" />
-  <link rel="stylesheet" href="src/css/pageBody.css" />
-  <link rel="stylesheet" href="src/css/produtos.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Área e Perímetro do Círculo</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/navBar.css" />
+    <link rel="stylesheet" href="src/css/pageBody.css" />
+    <link rel="stylesheet" href="src/css/produtos.css" />
+  </head>
 
-<body>
-  <div id="container">
-    <div id="sideNavbar">
-      <a href="index.html">
-        <img src="src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
-      </a>
-      <div class="name">LiteDevTools</div>
-      <nav>
-        <ul class="nav">
-          <a href="index.html"><li><span>Página Principal</span></li></a>
-          <a href="aboutUs.html"><li><span>Sobre nós</span></li></a>
-          <a href="products.html"><li><span>Produtos</span></li></a>
-          <a href="contacts.html"><li><span>Contatos</span></li></a>
-        </ul>
-      </nav>
-    </div>
-
-    <div id="pageBody">
-      <div class="title" style="margin-bottom: 30px;">
-        Cálculo da Área e Perímetro de um Círculo
+  <body>
+    <div id="container">
+      <div id="sideNavbar">
+        <a href="index.html">
+          <img src="src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
+        </a>
+        <div class="name">LiteDevTools</div>
+        <nav>
+          <ul class="nav">
+            <a href="index.html">
+              <li><span>Página Principal</span></li>
+            </a>
+            <a href="aboutUs.html">
+              <li><span>Sobre nós</span></li>
+            </a>
+            <a href="products.html">
+              <li><span>Produtos</span></li>
+            </a>
+            <a href="contacts.html">
+              <li><span>Contatos</span></li>
+            </a>
+          </ul>
+        </nav>
       </div>
 
-      <div class="generalText" style="text-align: center;">
-        <label for="raio">Digite o raio:</label><br />
-        <input type="number" id="raio" />
-        <button onclick="calcular()">Calcular</button>
-        <p id="resultado" style="margin-top: 20px;"></p>
+      <div id="pageBody">
+        <div class="title" style="margin-bottom: 30px">
+          Cálculo da Área e Perímetro de um Círculo
+        </div>
+
+        <div class="generalText" style="text-align: center">
+          <label for="raio">Digite o raio:</label><br />
+          <input type="number" id="raio" />
+          <button onclick="calcular()">Calcular</button>
+          <p id="resultado" style="margin-top: 20px"></p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <script>
-    function calcular() {
-      const raio = parseFloat(document.getElementById("raio").value);
-      const resultado = document.getElementById("resultado");
+    <script>
+      function calcular() {
+        const raio = parseFloat(document.getElementById("raio").value);
+        const resultado = document.getElementById("resultado");
 
-      if (isNaN(raio) || raio <= 0) {
-        resultado.textContent = "Digite um raio válido.";
-        return;
+        if (isNaN(raio) || raio <= 0) {
+          resultado.textContent = "Digite um raio válido.";
+          return;
+        }
+
+        const pi = 3.14;
+        const perimetro = 2 * pi * raio;
+        const area = pi * raio * raio;
+
+        resultado.innerHTML =
+          "Perímetro: " +
+          perimetro.toFixed(2) +
+          "<br>" +
+          "Área: " +
+          area.toFixed(2);
       }
-
-      const pi = 3.14;
-      const perimetro = 2 * pi * raio;
-      const area = pi * raio * raio;
-
-      resultado.innerHTML =
-        "Perímetro: " + perimetro.toFixed(2) + "<br>" +
-        "Área: " + area.toFixed(2);
-    }
-  </script>
-</body>
+    </script>
+  </body>
 </html>

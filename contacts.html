@@ -1,35 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contatos</title>
 
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/navBar.css">
-    <link rel="stylesheet" href="src/css/pageBody.css">
-    <link rel="stylesheet" href="src/css/contact.css">
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/navBar.css" />
+    <link rel="stylesheet" href="src/css/pageBody.css" />
+    <link rel="stylesheet" href="src/css/contact.css" />
 
     <script src="src/js/sendEmail.js"></script>
   </head>
 
   <body>
     <div id="container">
-
       <div id="sideNavbar">
-
         <a href="index.html">
-          <img src="src/img/logoLiteDevTools.svg" alt="logo" class="logo">
+          <img src="src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
         </a>
 
-        <div class="name">
-          LiteDevTools
-        </div>
+        <div class="name">LiteDevTools</div>
 
         <nav>
           <ul class="nav">
-
             <a href="index.html">
               <li>
                 <span>Página Principal</span>
@@ -53,55 +47,49 @@
                 <span>Fale conosco</span>
               </li>
             </a>
-
           </ul>
         </nav>
 
-        <span id="copyright">
-          LiteDevTools &copy; 2025
-        </span>
-
+        <span id="copyright"> LiteDevTools &copy; 2025 </span>
       </div>
 
       <div id="pageBody">
-        <div class="title darkBlue">
-          Fale conosco
-        </div>
+        <div class="title darkBlue">Fale conosco</div>
         <div id="feedbackWrapper">
-
           <div class="sidewaysSectionOrganizer generalText">
             <div class="emailContact">
               <form id="emailForm">
-                Entre em contato por carlosponteciano.programmer@gmail.com:* <br><br>
-                <label for="subject">Assunto:</label><br>
-                <input type="text" id="subject" name="subject"><br><br>
+                Entre em contato por carlosponteciano.programmer@gmail.com:*
+                <br /><br />
+                <label for="subject">Assunto:</label><br />
+                <input type="text" id="subject" name="subject" /><br /><br />
 
-                <label for="body">Mensagem:</label><br>
-                <textarea id="body" name="body" rows="5" cols="40"></textarea><br><br>
+                <label for="body">Mensagem:</label><br />
+                <textarea id="body" name="body" rows="5" cols="40"></textarea
+                ><br /><br />
 
-                <button id="emailButton" type="button" onclick="sendEmail()">Enviar e-mail</button>
+                <button id="emailButton" type="button" onclick="sendEmail()">
+                  Enviar e-mail
+                </button>
               </form>
             </div>
 
             <div class="otherContact">
               <p>
                 Whattsapp:*
-                <br>
+                <br />
                 +55 (15)99678-0067
               </p>
               <p>
                 Instagram:*
-                <br>
+                <br />
                 @litedevtools
               </p>
             </div>
-
           </div>
-
         </div>
         <span class="redSmallWarning">*Contatos ficticios </span>
       </div>
     </div>
   </body>
-
 </html>

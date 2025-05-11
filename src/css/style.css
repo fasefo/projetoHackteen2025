@@ -1,26 +1,26 @@
 body {
-    margin: 0;
-    background-color: #e0f7ff9e;
+  margin: 0;
+  background-color: #e0f7ff9e;
 }
 #container {
-    display: flex;
-    font-family: Helvetica, Arial;
+  display: flex;
+  font-family: Helvetica, Arial;
 }
 
 .lightBlue {
-    color: rgb(77, 202, 255);
+  color: rgb(77, 202, 255);
 }
 
 .darkBlue {
-    color: rgb(0, 108, 152);
+  color: rgb(0, 108, 152);
 }
 
 .redSmallWarning {
-    color: red;
-    font-size: 0.85em;
-    margin-bottom: 20px;
+  color: red;
+  font-size: 0.85em;
+  margin-bottom: 20px;
 }
 
 .pageWrapper {
-    max-width: 900px;
+  max-width: 900px;
 }
