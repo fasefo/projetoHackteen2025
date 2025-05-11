@@ -14,9 +14,7 @@
     margin: 5px 0 5px;
   }
   .sidewaysSectionOrganizer {
-    display: flex;
-    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
-    justify-content: flex-start; /* Alinha os itens no início */
+    flex-wrap: wrap;
   }
 }
 
