@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background-color: #e0f7ff9e;
+}
+
+#container {
+  display: flex;
+  font-family: Helvetica, Arial;
+}
+
+.lightBlue {
+  color: rgb(77, 202, 255);
+}
+
+.darkBlue {
+  color: rgb(0, 108, 152);
+}
+
+.teamCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.simple-card {
+  width: calc(33.33% - 20px);
+  padding: 30px;
+  background-color: #ffffff;
+  color: #006c98;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.simple-card:hover {
+  transform: scale(1.05);
+  background-color: #e0f7ff9e;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #006c98;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile {
+  text-align: center;
+}
+
+.namecard {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #006c98;
+}
+
+.id {
+  font-size: 16px;
+  color: #4dceff;
+}
+
+.description {
+  font-size: 16px;
+  padding: 12px;
+  background-color: #f0f4f8;
+  border-radius: 6px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social a img {
+  width: 32px;
+  height: 32px;
+}
