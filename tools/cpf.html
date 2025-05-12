@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,22 +11,23 @@
   </head>
 
   <body>
+    <div id="container">
       <div id="pageBody">
         <a
           href="../products.html"
-          style="margin-right: auto; margin-left: 30px">
+          style="margin-right: auto; margin-left: 30px"
+        >
           <button>Voltar para Ferramentas</button>
         </a>
-        <div class="title" style="margin-bottom: 30px;">Gerador de CPF</div>
+        <h1 class="title" style="margin-bottom: 30px">Gerador de CPF</h1>
 
-        <div class="generalText division" style="text-align: center;">
+        <div class="generalText division" style="text-align: center">
           <button onclick="gerarCPF()">Gerar CPF</button>
-          <p id="cpfGerado" style="margin-top: 20px; font-weight: bold;"></p>
+          <p id="cpfGerado" style="margin-top: 20px; font-weight: bold"></p>
         </div>
       </div>
     </div>
 
     <script src="../src/js/cpf.js"></script>
   </body>
-
 </html>
