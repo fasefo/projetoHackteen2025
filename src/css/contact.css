@@ -65,4 +65,5 @@
 
 #emailButton:hover {
   cursor: pointer;
+  background-color: rgb(235, 235, 235);
 }
