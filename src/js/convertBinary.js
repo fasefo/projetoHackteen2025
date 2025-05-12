@@ -13,7 +13,7 @@ function input2Changed() {
   input1.value = convert(2, input2.value);
 }
 
-const input1 = document.getElementById("hexadecimal");
+const input1 = document.getElementById("binary");
 const input2 = document.getElementById("decimal");
 
 input1.addEventListener("input", function (event) {
