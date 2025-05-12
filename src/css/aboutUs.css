@@ -16,6 +16,7 @@
 
 .card {
   padding: 25px;
+  margin: 0;
 
   max-width: 300px;
   min-width: 150px;
