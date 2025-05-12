@@ -88,6 +88,8 @@ ul.nav a {
   cursor: pointer;
 
   color: whitesmoke;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 option {
   color: black;

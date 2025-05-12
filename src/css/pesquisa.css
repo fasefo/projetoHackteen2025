@@ -1,4 +1,3 @@
-/* Estilo para a barra de pesquisa */
 .search-container {
   text-align: center;
   margin-bottom: 30px;
@@ -8,8 +7,16 @@
   padding: 10px;
   width: 800px;
   font-size: 16px;
-  border-radius: 25px;
+
   border: 1px solid #ccc;
-  background-color: #fff;
+  border-radius: 5px;
+
+  box-shadow: 2px 2px 2px 1px rgba(60, 60, 60, 0.412);
   margin-top: 10px;
+}
+
+@media (max-width: 1300px) {
+  #searchInput {
+    width: 350px;
+  }
 }
