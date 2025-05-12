@@ -4,41 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conversor de Temperatura</title>
-    <link rel="stylesheet" href="src/css/style.css" />
-    <link rel="stylesheet" href="src/css/navBar.css" />
-    <link rel="stylesheet" href="src/css/pageBody.css" />
-    <link rel="stylesheet" href="src/css/produtos.css" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/pageBody.css" />
   </head>
 
   <body>
     <div id="container">
-      <div id="sideNavbar">
-        <a href="index.html">
-          <img src="src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
-        </a>
-        <div class="name">LiteDevTools</div>
-        <nav>
-          <ul class="nav">
-            <a href="index.html">
-              <li><span>Página Principal</span></li>
-            </a>
-            <a href="aboutUs.html">
-              <li><span>Sobre nós</span></li>
-            </a>
-            <a href="products.html">
-              <li><span>Produtos</span></li>
-            </a>
-            <a href="contacts.html">
-              <li><span>Contatos</span></li>
-            </a>
-          </ul>
-        </nav>
-      </div>
-
       <div id="pageBody">
-        <div class="title" style="margin-bottom: 30px">
-          Conversor de Temperatura °C → °F
+        <h1 class="title" style="margin-bottom: 30px">
+          Conversor de Temperatura
+        </h1>
+
+        <div>
+          <select name="firstSelection" id="firstSelection">
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+          </select>
+          <input type="number" id="firstNumber" />
+
+          <br />
+
+          <select name="secondSelection" id="secondSelection">
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+          </select>
+          <input type="number" id="secondNumber" />
         </div>
+
+        <script src="../src/js/temperatureConverter.js"></script>
+
+        <!--
 
         <div class="generalText" style="text-align: center">
           <label for="celsius">Digite a temperatura em °C:</label>
@@ -62,6 +59,7 @@
             }
           }
         </script>
+        -->
       </div>
     </div>
   </body>
