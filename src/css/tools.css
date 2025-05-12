@@ -1,3 +1,13 @@
+#pageBody {
+  margin-left: 80px;
+}
+
+@media (max-width: 850px) {
+  #pageBody {
+    margin-left: 25px !important;
+  }
+}
+
 input,
 textarea {
   height: 2.2em;
