@@ -2,7 +2,9 @@ function converterParaBase64() {
   const texto = document.getElementById("textoInput").value;
   try {
     const base64 = btoa(unescape(encodeURIComponent(texto)));
-    document.getElementById("resultadoBase64").textContent = `Base64: ${base64}`;
+    document.getElementById(
+      "resultadoBase64"
+    ).textContent = `Base64: ${base64}`;
   } catch (e) {
     document.getElementById("resultadoBase64").textContent =
       "Erro ao converter. Verifique o texto inserido.";

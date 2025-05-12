@@ -12,9 +12,5 @@ function calcular() {
   const area = pi * raio * raio;
 
   resultado.innerHTML =
-    "Perímetro: " +
-    perimetro.toFixed(2) +
-    "<br>" +
-    "Área: " +
-    area.toFixed(2);
+    "Perímetro: " + perimetro.toFixed(2) + "<br>" + "Área: " + area.toFixed(2);
 }
