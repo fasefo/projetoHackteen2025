@@ -19,6 +19,7 @@
   font-size: 3em;
   font-weight: bold;
 
+  color: var(--title-color);
   margin-bottom: 20px;
 }
 
@@ -30,7 +31,7 @@ h2.title {
   margin: 0 0 35px;
   font-size: 1.1em;
   line-height: 1.6em;
-  color: #555;
+  color: var(--text-color);
   text-align: justify;
 }
 

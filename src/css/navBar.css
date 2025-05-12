@@ -9,6 +9,7 @@
   margin-right: 80px;
 
   background-color: gray;
+  color: whitesmoke;
 
   display: flex;
   flex-direction: column;
@@ -67,14 +68,27 @@ ul.nav li:hover {
 
 ul.nav a {
   text-decoration: none;
-}
-
-ul.nav span {
   color: whitesmoke;
 }
 
 #copyright {
   margin: auto 10px 10px 0;
-  color: whitesmoke;
   font-weight: bold;
+}
+
+#themeChoice {
+  margin-bottom: 10px;
+  width: auto;
+
+  background-color: transparent;
+
+  border: none;
+  border-radius: 5px;
+  
+  cursor: pointer;
+
+  color: whitesmoke;
+}
+option {
+  color: black;
 }

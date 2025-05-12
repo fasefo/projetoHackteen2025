@@ -51,26 +51,32 @@
         </nav>
 
         <span id="copyright"> LiteDevTools &copy; 2025 </span>
+
+        <select name="themeChoice" id="themeChoice">
+          <option value="light">Tema claro</option>
+          <option value="dark">Tema escuro</option>
+        </select>
+
       </div>
 
       <div id="pageBody">
         <div class="title darkBlue">Fale conosco</div>
         <div id="feedbackWrapper">
           <div class="sidewaysSectionOrganizer generalText">
-            <div class="emailContact">
+            <div class="emailContact" style="  color: var(--text-color);">
               <form id="emailForm">
-                Entre em contato por liteDevTools@gmail.com:*
-                <br /><br />
-                <label for="subject">Assunto:</label><br />
-                <input type="text" id="subject" name="subject" /><br /><br />
-
-                <label for="body">Mensagem:</label><br />
-                <textarea id="body" name="body" rows="5" cols="40"></textarea
-                ><br /><br />
-
-                <button id="emailButton" type="button" onclick="sendEmail()">
-                  Enviar e-mail
-                </button>
+                <span class="generalText">Entre em contato por liteDevTools@gmail.com:*</span>
+                  <br /><br />
+                  <label for="subject">Assunto:</label><br />
+                  <input type="text" id="subject" name="subject" /><br /><br />
+  
+                  <label for="body">Mensagem:</label><br />
+                  <textarea id="body" name="body" rows="5" cols="40"></textarea
+                  ><br /><br />
+  
+                  <button id="emailButton" type="button" onclick="sendEmail()">
+                    Enviar e-mail
+                  </button>
               </form>
             </div>
 
@@ -91,5 +97,6 @@
         <span class="redSmallWarning">*Contatos ficticios </span>
       </div>
     </div>
+    <script src="src/js/theme.js"></script>
   </body>
 </html>

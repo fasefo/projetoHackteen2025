@@ -1,6 +1,10 @@
 body {
   margin: 0;
-  background-color: #e0f7ff9e;
+  --bg-color: #e0f7ff9e;
+  --text-color: #555;
+  --title-color: black;
+  --division-color: white;
+  background-color: var(--bg-color);
 }
 #container {
   display: flex;
@@ -27,7 +31,7 @@ body {
 }
 
 .division {
-  background-color: white;
+  background-color: var(--division-color);
 
   padding: 5px 40px;
   margin: 20px 0 40px;

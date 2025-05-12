@@ -1,5 +1,5 @@
 #feedbackWrapper {
-  background-color: white;
+  background-color: var(--division-color);
 
   padding: 20px;
   margin: 20px 0 40px;
@@ -66,4 +66,8 @@
 #emailButton:hover {
   cursor: pointer;
   background-color: rgb(235, 235, 235);
+}
+
+.emailContact {
+  color: var(--text-color);
 }

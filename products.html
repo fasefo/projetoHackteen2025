@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/css/navBar.css" />
     <link rel="stylesheet" href="src/css/pageBody.css" />
     <link rel="stylesheet" href="src/css/products.css" />
+    <link rel="stylesheet" href="src/css/pesquisa.css" />
   </head>
 
   <body>
@@ -22,36 +23,45 @@
         <nav>
           <ul class="nav">
             <a href="index.html">
-              <li>
-                <span>Página Principal</span>
-              </li>
+              <li><span>Página Principal</span></li>
             </a>
 
             <a href="aboutUs.html">
-              <li>
-                <span>Sobre nós</span>
-              </li>
+              <li><span>Sobre nós</span></li>
             </a>
 
             <a href="products.html">
-              <li id="active">
-                <span>Ferramentas</span>
-              </li>
+              <li id="active"><span>Ferramentas</span></li>
             </a>
 
             <a href="contacts.html">
-              <li>
-                <span>Fale conosco</span>
-              </li>
+              <li><span>Fale conosco</span></li>
             </a>
           </ul>
         </nav>
 
         <span id="copyright"> LiteDevTools &copy; 2025 </span>
+
+        <select name="themeChoice" id="themeChoice">
+          <option value="light">Tema claro</option>
+          <option value="dark">Tema escuro</option>
+        </select>
+
       </div>
 
       <div id="pageBody">
         <h1 class="title darkBlue" style="margin: 0 0 55px">Ferramentas</h1>
+
+        <!-- Barra de Pesquisa -->
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Buscar ferramentas..."
+            onkeyup="searchTools()"
+          />
+        </div>
+
         <div id="toolsList">
           <a href="tools/binaryConverter.html">
             <div class="tool">
@@ -116,5 +126,9 @@
         </div>
       </div>
     </div>
+
+    <script src="src/js/pesquisa.js"></script>
+    <script src="src/js/theme.js"></script>
+
   </body>
 </html>
