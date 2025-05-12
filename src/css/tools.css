@@ -1,0 +1,29 @@
+input {
+  height: 2.2em;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  box-shadow: 2px 2px 2px 1px rgba(60, 60, 60, 0.412);
+}
+
+button,
+select {
+  height: 2.2em;
+  background-color: #ffffff9e;
+
+  font-size: 0.9em;
+  line-height: 1.6em;
+  color: #555;
+
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+  box-shadow: 2px 2px 2px 1px rgba(60, 60, 60, 0.412);
+
+  cursor: pointer;
+}
+
+.division {
+  padding: 60px;
+}
