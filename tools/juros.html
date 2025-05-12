@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Juros Compostos</title>
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/pageBody.css" />
+    <link rel="stylesheet" href="../src/css/tools.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="pageBody">
+        <a href="../products.html" style="margin-right: auto; margin-left: 30px">
+          <button>Voltar para Ferramentas</button>
+        </a>
+        <h1 class="title" style="margin-bottom: 30px">Calculadora de Juros Compostos</h1>
+
+        <div class="division">
+          <p class="generalText">Valor Principal (R$):</p>
+          <input type="number" id="principal" required />
+
+          <br /><br />
+          <p class="generalText">Taxa de Juros (%):</p>
+          <input type="number" id="taxa" step="0.01" required />
+
+          <br /><br />
+          <p class="generalText">Número de Períodos (meses):</p>
+          <input type="number" id="periodos" required />
+
+          <br /><br />
+          <button type="submit" class="redSmallWarning" id="calcular">Calcular</button>
+
+          <h2 id="resultado" class="generalText darkBlue">Montante Final: R$ 0.00</h2>
+        </div>
+
+        <script src="../src/js/juros.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
