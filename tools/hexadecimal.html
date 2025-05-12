@@ -4,31 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conversor Hexadecimal</title>
-    <link rel="stylesheet" href="src/css/style.css" />
-    <link rel="stylesheet" href="src/css/navBar.css" />
-    <link rel="stylesheet" href="src/css/pageBody.css" />
-    <link rel="stylesheet" href="src/css/produtos.css" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/navBar.css" />
+    <link rel="stylesheet" href="../src/css/pageBody.css" />
+    <link rel="stylesheet" href="../src/css/produtos.css" />
   </head>
 
   <body>
     <div id="container">
       <div id="sideNavbar">
-        <a href="index.html">
-          <img src="src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
+        <a href="../index.html">
+          <img src="../src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
         </a>
         <div class="name">LiteDevTools</div>
         <nav>
           <ul class="nav">
-            <a href="index.html">
+            <a href="../index.html">
               <li><span>Página Principal</span></li>
             </a>
-            <a href="aboutUs.html">
+            <a href="../aboutUs.html">
               <li><span>Sobre nós</span></li>
             </a>
-            <a href="products.html">
+            <a href="../products.html">
               <li><span>Produtos</span></li>
             </a>
-            <a href="contacts.html">
+            <a href="../contacts.html">
               <li><span>Contatos</span></li>
             </a>
           </ul>
@@ -57,38 +57,9 @@
           <button onclick="converterParaDecimal()">Converter</button>
           <p id="decResultado" style="margin-top: 15px; font-weight: bold"></p>
         </div>
-
-        <script>
-          function converterParaHex() {
-            const input = document.getElementById("decimalInput").value;
-            const decimal = parseInt(input, 10);
-
-            if (!isNaN(decimal)) {
-              const hex = decimal.toString(16).toUpperCase();
-              document.getElementById(
-                "hexResultado"
-              ).textContent = `O número ${decimal} em hexadecimal é: ${hex}`;
-            } else {
-              document.getElementById("hexResultado").textContent =
-                "Digite um número decimal válido.";
-            }
-          }
-
-          function converterParaDecimal() {
-            const input = document.getElementById("hexInput").value.trim();
-
-            if (/^[0-9a-fA-F]+$/.test(input)) {
-              const decimal = parseInt(input, 16);
-              document.getElementById(
-                "decResultado"
-              ).textContent = `O número hexadecimal ${input.toUpperCase()} em decimal é: ${decimal}`;
-            } else {
-              document.getElementById("decResultado").textContent =
-                "Digite um número hexadecimal válido (0-9, A-F).";
-            }
-          }
-        </script>
       </div>
     </div>
+
+    <script src="../src/js/hexadecimal.js"></script>
   </body>
 </html>
