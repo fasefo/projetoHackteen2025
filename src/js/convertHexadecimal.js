@@ -1,8 +1,8 @@
 function convert(type, value) {
   if (type == 1) {
-    return parseInt(value, 2);
+    return parseInt(value, 16);
   } else {
-    return parseInt(value, 10).toString(2);
+    return parseInt(value, 10).toString(16);
   }
 }
 
