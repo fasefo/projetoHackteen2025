@@ -12,11 +12,11 @@ body {
 }
 
 .lightBlue {
-  color: rgb(77, 202, 255);
+  color: rgb(77, 202, 255) !important;
 }
 
 .darkBlue {
-  color: rgb(0, 108, 152);
+  color: rgb(0, 108, 152) !important;
 }
 
 .redSmallWarning {
