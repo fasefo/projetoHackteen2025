@@ -41,3 +41,12 @@ h2.title {
   align-self: stretch;
   gap: 40px;
 }
+
+img.conf {
+  color: var(--text-color);
+  width: 20px;
+  align-self: flex-end;
+}
+img.conf:hover {
+  cursor: pointer;
+}
