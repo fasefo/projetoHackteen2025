@@ -41,7 +41,9 @@ h2.title {
   align-self: stretch;
   gap: 40px;
 }
+
 .configurations {
+  position: relative;
   align-self: flex-end;
   display: flex;
   flex-direction: column;
@@ -53,4 +55,32 @@ h2.title {
 }
 .configurations img:hover {
   cursor: pointer;
+}
+
+.configDropdown {
+  background-color: gray;
+
+  padding: 10px;
+
+  position: absolute;
+  right: 0;
+  top: 30px;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+#themeChoice,
+#fontChoice {
+  margin-bottom: 10px;
+  width: auto;
+
+  background-color: transparent;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  color: whitesmoke;
+  font-size: 0.9em;
+  font-weight: bold;
 }

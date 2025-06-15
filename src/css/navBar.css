@@ -76,21 +76,6 @@ ul.nav a {
   font-weight: bold;
 }
 
-#themeChoice {
-  margin-bottom: 10px;
-  width: auto;
-
-  background-color: transparent;
-
-  border: none;
-  border-radius: 5px;
-
-  cursor: pointer;
-
-  color: whitesmoke;
-  font-size: 0.9em;
-  font-weight: bold;
-}
 option {
   color: black;
 }
