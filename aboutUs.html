@@ -34,14 +34,28 @@
           </ul>
         </nav>
         <span id="copyright">LiteDevTools &copy; 2025</span>
-
-        <select name="themeChoice" id="themeChoice">
-          <option value="light">Tema claro</option>
-          <option value="dark">Tema escuro</option>
-        </select>
       </div>
 
       <div id="pageBody">
+        <div class="configurations">
+          <img
+            src="src/img/settings-gear.svg"
+            alt="configurações"
+            id="configGear"
+          />
+          <div class="configDropdown" id="configDropdown">
+            <select name="themeChoice" id="themeChoice">
+              <option value="light">Tema claro</option>
+              <option value="dark">Tema escuro</option>
+            </select>
+            <select name="fontChoice" id="fontChoice">
+              <option value="small">Fonte pequena</option>
+              <option value="mid">Fonte normal</option>
+              <option value="big">Fonte grande</option>
+            </select>
+            <br />
+          </div>
+        </div>
         <section class="pageWrapper">
           <h1 class="title darkBlue" style="margin: inherit">Sobre nós</h1>
 
@@ -195,7 +209,7 @@
                   href="https://github.com/GGG12121212"
                   target="_blank"
                   class="githubLogoWrapper"
-                > 
+                >
                   <img
                     src="src/img/github-mark.svg"
                     alt="github logo"
@@ -209,5 +223,7 @@
       </div>
     </div>
     <script src="src/js/theme.js"></script>
+    <script src="src/js/font.js"></script>
+    <script src="src/js/config.js"></script>
   </body>
 </html>

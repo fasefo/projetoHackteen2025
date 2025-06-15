@@ -4,6 +4,9 @@ const savedTheme = localStorage.getItem("theme");
 if (savedTheme) {
   switchTheme(savedTheme);
   themeChoice.value = savedTheme;
+} else {
+  switchTheme("light");
+  themeChoice.value = "light";
 }
 
 function switchTheme(theme) {

@@ -1,6 +1,9 @@
 const configGear = document.getElementById("configGear");
 const menu = document.getElementById("configDropdown");
+
 menuOpen = false;
+
+updateMenu();
 
 function updateMenu() {
   if (menuOpen) {

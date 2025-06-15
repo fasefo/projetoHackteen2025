@@ -4,6 +4,9 @@ const savedFont = localStorage.getItem("font");
 if (savedFont) {
   switchFont(savedFont);
   fontChoice.value = savedFont;
+} else {
+  switchFont("mid");
+  fontChoice.value = "mid";
 }
 
 function switchFont(font) {
