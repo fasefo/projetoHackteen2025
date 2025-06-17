@@ -1,19 +1,20 @@
-<p align="center">
-  <img src="src/img/logo_LiteDevTools.png" alt="Logo 1">
+<p align="left">
+  <img src="src/img/logo_LiteDevTools.png" alt="Logo 1" width="500" height="200">
 </p>
-<h2>
-  Tecnologias usadas:
-</h2>
+<hr>
+<div>
+<img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-blue?style=for-the-badge" alt="Status do Projeto: Em desenvolvimento" style="display:inline-block;">
+<img src="https://img.shields.io/github/repo-size/fasefo/projetoHackteen2025?style=for-the-badge" alt="Tamanho do Repositório" style="display:inline-block;">
+<img src="https://img.shields.io/github/stars/fasefo/projetoHackteen2025?style=for-the-badge" alt="Estrelas do GitHub" style="display:inline-block;">
+<img src="https://img.shields.io/github/languages/top/fasefo/projetoHackteen2025?style=for-the-badge" alt="Linguagem principal" style="display:inline-block;">
+<a href="https://github.com/fasefo/projetoHackteen2025/archive/refs/heads/main.zip" target="_blank">
+  <img src="https://img.shields.io/badge/Download-.zip-brightgreen?style=for-the-badge&logo=github" alt="Download">
+</a>
+</div>
+<br>
 
-Como esse projeto é simples, as tecnologias usadas foram apenas as necessárias, embora no futuro, isto possa ser amplado.
+<h2>Introdução</h2>
 
-- HTML
-- CSS
-- JS
-
-<h2>
-  Sobre o Projeto:
-</h2>
 
 LiteDevTools é uma startup fictícia com o propósito de desenvolver ferramentas online leves e simples para desenvolvedores e entusiastas da tecnologia.
 
