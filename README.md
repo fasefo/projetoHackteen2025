@@ -1,5 +1,10 @@
 
-<img src="src/img/logo-removebg-preview.png"style="width:100px; height:100px"><img src="src/img/logoLiteDevTools.svg"style="width:50px; height:50px"></img>
+<p align="center">
+  <img src="src/img/logo-removebg-preview.png" alt="Logo 1" width="150" height="150">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="src/img/logoLiteDevTools.svg" alt="Logo 2" width="120" height="120">
+</p>
+
 <h2>
   Tecnologias usadas:
 </h2>
