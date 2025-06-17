@@ -25,7 +25,7 @@
         <nav>
           <ul class="nav">
             <a href="index.html">
-              <li>
+              <li id="active">
                 <span>Página Principal</span>
               </li>
             </a>
@@ -36,14 +36,26 @@
               </li>
             </a>
 
-            <a href="products.html">
-              <li>
-                <span>Ferramentas</span>
-              </li>
-            </a>
+            <li>
+              <span class="expandable-link" onclick="toggleContent()">Ferramentas</span>
+              <div id="toolsContent" class="expandable-content">
+
+                <a href="products.html" target="_blank" style="color: blue;">Todas</a>
+                <a href="tools/hexadecimalConverter.html" target="_blank">Conversor Hexadecimal e Decimal</a>
+                <a href="tools/binaryConverter.html" target="_blank">Conversor Binário e Decimal</a>
+                <a href="tools/octalConverter.html" target="_blank">Conversor Octal e Decimal</a>
+                <a href="tools/base64.html" target="_blank">Conversor Base 64</a>
+                <a href="tools/temperatureConverter.html" target="_blank">Conversor temperatura</a>
+                <a href="tools/json.html" target="_blank">Formatar Json</a>
+                <a href="tools/cpf.html" target="_blank">Gerador de CPF</a>
+                <a href="tools/prime.html" target="_blank">Verificar número primo</a>
+                <a href="tools/circulo.html" target="_blank">Cálculos Circunferência</a>
+                <a href="tools/juros.html" target="_blank">Cálculo Juros Compostos</a>
+              </div>
+            </li>
 
             <a href="contacts.html">
-              <li id="active">
+              <li>
                 <span>Fale conosco</span>
               </li>
             </a>
@@ -115,5 +127,6 @@
     <script src="src/js/theme.js"></script>
     <script src="src/js/font.js"></script>
     <script src="src/js/config.js"></script>
+    <script src="src/js/navbarSize.js"></script>
   </body>
 </html>
