@@ -1,6 +1,6 @@
 <p align="center">
   <img src="src/img/logo-removebg-preview.png" alt="Logo 1" width="300" height="200">
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;
   <img src="src/img/logoLiteDevTools.svg" alt="Logo 2" width="200" height="200">
 </p>
 
