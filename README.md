@@ -1,8 +1,4 @@
-<h1>
-  Projeto Hackteen 2025
-
-  LiteDevTools
-</h1>
+<img src="src/img/logo-removebg-preview.png"><img src="src/img/logoLiteDevTools.svg"></img></img>
 <h2>
   Tecnologias usadas:
 </h2>
