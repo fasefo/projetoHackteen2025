@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-<img src="src/img/logo-removebg-preview.png"><img src="src/img/logoLiteDevTools.svg"></img>
+
+<img src="src/img/logo-removebg-preview.png width:200px height:150px;"><img src="src/img/logoLiteDevTools.svg width:50px height:25px;"></img>
 <h2>
   Tecnologias usadas:
 </h2>
