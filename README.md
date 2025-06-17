@@ -1,5 +1,5 @@
 
-<img src="src/img/logo-removebg-preview.png width:200px height:150px;"><img src="src/img/logoLiteDevTools.svg width:50px height:25px;"></img>
+<img src="src/img/logo-removebg-preview.png"style="width:100px; height:100px"><img src="src/img/logoLiteDevTools.svg"style="width:50px; height:50px"></img>
 <h2>
   Tecnologias usadas:
 </h2>
