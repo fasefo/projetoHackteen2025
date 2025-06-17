@@ -1,7 +1,12 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<img src="src/img/letreiro-removebg-preview.png"><img src="src/img/logoLiteDevTools.svg"></img>
+=======
 <p align="center">
   <img src="src/img/logo_LiteDevTools.png" alt="Logo 1" width="400" height="300">
 </p>
 
+>>>>>>> d8ab41e6fa6e84ce99ee65116d57c60d8b145dd1
 <h2>
   Tecnologias usadas:
 </h2>
