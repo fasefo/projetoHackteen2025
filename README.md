@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="src/img/logo_LiteDevTools.png" alt="Logo 1" width="500" height="200">
+  <img src="src/img/logo_LiteDevTools.png" alt="Logo 1" height="200">
 </p>
 <hr>
 <div>
