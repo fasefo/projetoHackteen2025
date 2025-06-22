@@ -79,15 +79,8 @@ ul.nav a li span {
   font-weight: bold;
 }
 
-option {
-  color: black;
-}
-
 .expandable-link {
-  cursor: pointer;
-  text-decoration: underline;
-  color: whitesmoke;
-  text-decoration: none;
+  cursor: pointer; 
 }
 
 .expandable-content {
