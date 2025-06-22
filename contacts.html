@@ -16,53 +16,10 @@
   <body>
     <div id="container">
       <div id="sideNavbar">
-        <a href="index.html">
-          <img src="src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
-        </a>
-
-        <div class="name">LiteDevTools</div>
-
-        <nav>
-          <ul class="nav">
-            <a href="index.html">
-              <li>
-                <span>Página Principal</span>
-              </li>
-            </a>
-
-            <a href="aboutUs.html">
-              <li>
-                <span>Sobre nós</span>
-              </li>
-            </a>
-
-            <li>
-              <span class="expandable-link" onclick="toggleContent()">Ferramentas</span>
-              <div id="toolsContent" class="expandable-content">
-
-                <a href="products.html" target="_blank" style="color: blue;">Todas</a>
-                <a href="tools/hexadecimalConverter.html" target="_blank">Conversor Hexadecimal e Decimal</a>
-                <a href="tools/binaryConverter.html" target="_blank">Conversor Binário e Decimal</a>
-                <a href="tools/octalConverter.html" target="_blank">Conversor Octal e Decimal</a>
-                <a href="tools/base64.html" target="_blank">Conversor Base 64</a>
-                <a href="tools/temperatureConverter.html" target="_blank">Conversor temperatura</a>
-                <a href="tools/json.html" target="_blank">Formatar Json</a>
-                <a href="tools/cpf.html" target="_blank">Gerador de CPF</a>
-                <a href="tools/prime.html" target="_blank">Verificar número primo</a>
-                <a href="tools/circulo.html" target="_blank">Cálculos Circunferência</a>
-                <a href="tools/juros.html" target="_blank">Cálculo Juros Compostos</a>
-              </div>
-            </li>
-
-            <a href="contacts.html">
-              <li id="active">
-                <span>Fale conosco</span>
-              </li>
-            </a>
-          </ul>
-        </nav>
-
-        <span id="copyright"> LiteDevTools &copy; 2025 </span>
+        <script src="src/js/navbar.js"></script>
+        <script>
+          loadNavbar("navbar.html", "contacts");
+        </script>
       </div>
 
       <div id="pageBody">
@@ -127,15 +84,15 @@
 
     <script>
       function toggleContent() {
-        var content = document.getElementById('toolsContent');
-        if (content.style.display === 'block') {
-          content.style.display = 'none';
+        var content = document.getElementById("toolsContent");
+        if (content.style.display === "block") {
+          content.style.display = "none";
         } else {
-          content.style.display = 'block';
+          content.style.display = "block";
         }
       }
     </script>
-    
+
     <script src="src/js/theme.js"></script>
     <script src="src/js/font.js"></script>
     <script src="src/js/config.js"></script>
