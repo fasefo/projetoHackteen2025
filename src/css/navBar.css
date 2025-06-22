@@ -79,8 +79,8 @@ ul.nav a li span {
   font-weight: bold;
 }
 
-.expandable-link {
-  cursor: pointer; 
+#products {
+  cursor: pointer;
 }
 
 .expandable-content {
@@ -97,4 +97,18 @@ ul.nav a li span {
 
 .expandable-content a:hover {
   background-color: gray;
+}
+
+#toolsContent {
+  display: block;
+  position: absolute;
+
+  background-color: gray;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+
+  opacity: 0;
+  pointer-events: none;
+
+  padding: 13px;
+  border-radius: 6px;
 }
