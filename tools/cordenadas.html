@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Coordenadas</title>
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/pageBody.css" />
+    <link rel="stylesheet" href="../src/css/tools.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="pageBody">
+        <a href="../products.html" style="margin-right: auto; margin-left: 30px">
+          <button>Voltar para Ferramentas</button>
+        </a>
+        <h1 class="title" style="margin-bottom: 30px">Gerador de Coordenadas</h1>
+
+        <div class="generalText division" style="text-align: center">
+          <label for="endereco">Digite o endereço:</label><br />
+          <input type="text" id="endereco" placeholder="Ex: Rua 25 de Março, São Paulo" /><br /><br />
+          <button id="buscarEndereco">Buscar Coordenadas</button>
+          <p id="resultado" style="margin-top: 20px; font-weight: bold"></p>
+          <a id="linkGoogleMaps" href="#" target="_blank" style="display: none;">Abrir no Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="../src/js/cordenadas.js"></script
+  </body>
+</html>
