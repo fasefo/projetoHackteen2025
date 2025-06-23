@@ -17,8 +17,6 @@
 
  <strong>LiteDevTools </strong> é uma startup fictícia com o propósito de desenvolver  <strong>ferramentas online leves, acessíveis e intuitivas,</strong> voltadas para <strong>desenvolvedores, estudantes e entusiastas da tecnologia.</strong> Nosso foco está na criação de soluções digitais que não apenas facilitem o cotidiano de quem programa, mas também incentivem o aprendizado e a inovação.
 
-O projeto foi idealizado e está sendo desenvolvido para competir no <strong>Hackteen 2025,</strong> uma competição voltada para jovens talentos do desenvolvimento e da inovação tecnológica. Esta iniciativa busca demonstrar o potencial criativo dos participantes na resolução de problemas reais por meio de soluções digitais eficazes.
-
 Todas as ferramentas propostas pela LiteDevTools seguem os princípios de:
 <br>
 🚀<strong> Desempenho</strong> — códigos otimizados e responsivos
@@ -32,11 +30,11 @@ Este repositório contém o código-fonte da aplicação que representará a equ
 
  <hr>
 
-<h2>
-  Como usar:
-</h2>
+<h2>Descrição do projeto</h2>
+<p>O projeto foi idealizado e está sendo desenvolvido para competir no <strong>Hackteen 2025,</strong> uma competição voltada para jovens talentos do desenvolvimento e da inovação tecnológica. Esta iniciativa busca demonstrar o potencial criativo dos participantes na resolução de problemas reais por meio da criação de startups empresas digitais, com busca de uma de ideia.
+<br>
+<hr>
+<br>
+Veja uma demonstração de como é:
+</p>
 
-Para usar o projeto, basta baixar o projeto compactado .zip diretamente desse repositório, descompactar e abrir index.html em um navegador
-
-Alternativamente, é possível baixar o projeto usando o comando abaixo no diretório onde deseja baixá-lo
-> git clone https://github.com/fasefo/projetoHackteen2025.git
