@@ -57,15 +57,14 @@ Veja uma demonstração de como é:
 <h2>📂 Acesso ao projeto</h2>
 <br>
 <p>Você pode baixa-lo pelo próprio github em <a href="https://github.com/fasefo/projetoHackteen2025/archive/refs/heads/main.zip">arquivo zip</a> ou entrar no seu editor de código <br> e dar o seguinte comando</p>
-
+<p>vá no seu terminal e digite</p>
 ```
 git clone # URL de nosso repositório 
 ```
 <br>
-<br>
 <hr>
 <h2>Tecnologias utilizadas</h2>
-<p>Abaixo teremos as liguagens e outras tecnologias que foram usadas no desenvolvimento do projeto</p>
+<p>Abaixo temos as linguagens e outras tecnologias que foram usadas no desenvolvimento do projeto</p>
 <div style="display: flex; gap: 10px;">
   <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
