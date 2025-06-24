@@ -57,9 +57,9 @@ Veja uma demonstração de como é:
 <h2>📂 Acesso ao projeto</h2>
 <br>
 <p>Você pode baixa-lo pelo próprio github em <a href="https://github.com/fasefo/projetoHackteen2025/archive/refs/heads/main.zip">arquivo zip</a> ou entrar no seu editor de código <br> e dar o seguinte comando</p>
-<p>vá no seu terminal e digite</p>
+
 ```
-git clone # URL de nosso repositório 
+ git clone # URL de nosso repositório
 ```
 <br>
 <hr>
@@ -71,6 +71,45 @@ git clone # URL de nosso repositório
   <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code">
 </div>
+<br>
+<hr>
+<h2>Autores do projeto</h2>
+<br>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/ThiagoLopesDS" target="_blank">
+        <img src="src/img/Devs_02.jpg" width="100px" alt="Thiago Lopes Dos Santos"/><br/>
+        <sub><b>Thiago Lopes Dos Santos</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Carlos0909" target="_blank">
+        <img src="src/img/Devs_01.jpg" width="100px" alt="Carlos Enrique Domingues Ponteciano Junior"/><br/>
+        <sub><b>Carlos Enrique Domingues Ponteciano Junior</b></sub>
+      </a>
+    </td>
+     <td align="center">
+      <a href="https://github.com/fasefo" target="_blank">
+        <img src="src/img/Devs_03.jpg" width="100px" alt="Fabio Guedes da silva filho"/><br/>
+        <sub><b>Fabio Guedes da silva filho</b></sub>
+      </a>
+    </td>
+       <td align="center">
+      <a href="https://github.com/fasefo" target="_blank">
+        <img src="src/img/Devs_04.jpg" width="100px" alt="Gabriel Pantojo Benetti Dias"/><br/>
+        <sub><b>Gabriel Pantojo Benetti Dias</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
 
 
   
