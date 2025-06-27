@@ -18,7 +18,11 @@ requestAnimationFrame(() => {
   document.addEventListener("click", function (event) {
     var content = document.getElementById("toolsContent");
     var trigger = document.getElementById("toolsDropdownTrigger");
-    if (!content.contains(event.target) && !trigger.contains(event.target)) {
+    if (
+      !content.contains(event.target) &&
+      !trigger.contains(event.target) &&
+      !toolsOpen
+    ) {
       toggleContent();
     }
   });
