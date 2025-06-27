@@ -14,10 +14,67 @@
   <body>
     <div id="container">
       <div id="sideNavbar">
-        <script src="src/js/navbar.js"></script>
-        <script>
-          loadNavbar("navbar.html", "homePage");
-        </script>
+        <a href="index.html">
+          <img src="src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
+        </a>
+
+        <div class="name">LiteDevTools</div>
+
+        <nav>
+          <ul class="nav">
+            <a href="index.html">
+              <li id="homePage" class="active">
+                <span>Página Principal</span>
+              </li>
+            </a>
+
+            <a href="aboutUs.html">
+              <li id="aboutUs">
+                <span>Sobre nós</span>
+              </li>
+            </a>
+
+            <li id="products">
+              <span
+                class="expandable-link"
+                onclick="toggleContent()"
+                id="toolsDropdownTrigger"
+                >Ferramentas</span
+              >
+              <div id="toolsContent" class="expandable-content">
+                <a href="products.html" style="color: blue">Todas</a>
+                <a href="tools/hexadecimalConverter.html"
+                  >Conversor Hexadecimal e Decimal</a
+                >
+                <a href="tools/binaryConverter.html"
+                  >Conversor Binário e Decimal</a
+                >
+                <a href="tools/octalConverter.html"
+                  >Conversor Octal e Decimal</a
+                >
+                <a href="tools/base64.html">Conversor Base 64</a>
+                <a href="tools/temperatureConverter.html"
+                  >Conversor temperatura</a
+                >
+                <a href="tools/json.html">Formatar Json</a>
+                <a href="tools/cpf.html">Gerador de CPF</a>
+                <a href="tools/prime.html">Verificar número primo</a>
+                <a href="tools/circulo.html">Cálculos Circunferência</a>
+                <a href="tools/juros.html">Cálculo Juros Compostos</a>
+                <a href="tools/loren.html">Cálculo Juros Compostos</a>
+                <a href="tools/cordenadas.html">Cálculo Juros Compostos</a>
+              </div>
+            </li>
+
+            <a href="contacts.html">
+              <li id="contacts">
+                <span>Fale conosco</span>
+              </li>
+            </a>
+          </ul>
+        </nav>
+
+        <span id="copyright"> LiteDevTools &copy; 2025 </span>
       </div>
 
       <div id="pageBody">
@@ -43,43 +100,55 @@
 
         <div class="slider">
           <div class="slides">
-              <!-- Radio Buttons -->
-              <input type="radio" name="radio-btn" id="radio1" checked>
-              <input type="radio" name="radio-btn" id="radio2">
-              <input type="radio" name="radio-btn" id="radio3">
-              <input type="radio" name="radio-btn" id="radio4">
+            <!-- Radio Buttons -->
+            <input type="radio" name="radio-btn" id="radio1" checked />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <input type="radio" name="radio-btn" id="radio4" />
 
-              <!-- Slides container (isso se move) -->
-              <div class="slide-container">
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Imagem 1">
-                </div>
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Imagem 2">
-                </div>
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Imagem 3">
-                </div>
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Imagem 4">
-                </div>
+            <!-- Slides container (isso se move) -->
+            <div class="slide-container">
+              <div class="slide">
+                <img
+                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+                  alt="Imagem 1"
+                />
               </div>
+              <div class="slide">
+                <img
+                  src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+                  alt="Imagem 2"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+                  alt="Imagem 3"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+                  alt="Imagem 4"
+                />
+              </div>
+            </div>
 
-              <!-- Navegação automática -->
-              <div class="navigation-auto">
+            <!-- Navegação automática -->
+            <div class="navigation-auto">
               <div class="auto-btn1"></div>
               <div class="auto-btn2"></div>
               <div class="auto-btn3"></div>
               <div class="auto-btn4"></div>
-              </div>
+            </div>
           </div>
 
           <!-- Navegação manual -->
           <div class="manual-navigation">
-              <label for="radio1" class="manual-btn"></label>
-              <label for="radio2" class="manual-btn"></label>
-              <label for="radio3" class="manual-btn"></label>
-              <label for="radio4" class="manual-btn"></label>
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
           </div>
         </div>
 

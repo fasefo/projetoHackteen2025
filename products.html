@@ -14,10 +14,67 @@
   <body>
     <div id="container">
       <div id="sideNavbar">
-        <script src="src/js/navbar.js"></script>
-        <script>
-          loadNavbar("navbar.html", "products");
-        </script>
+        <a href="index.html">
+          <img src="src/img/logoLiteDevTools.svg" alt="logo" class="logo" />
+        </a>
+
+        <div class="name">LiteDevTools</div>
+
+        <nav>
+          <ul class="nav">
+            <a href="index.html">
+              <li id="homePage">
+                <span>Página Principal</span>
+              </li>
+            </a>
+
+            <a href="aboutUs.html">
+              <li id="aboutUs">
+                <span>Sobre nós</span>
+              </li>
+            </a>
+
+            <li id="products" class="active">
+              <span
+                class="expandable-link"
+                onclick="toggleContent()"
+                id="toolsDropdownTrigger"
+                >Ferramentas</span
+              >
+              <div id="toolsContent" class="expandable-content">
+                <a href="products.html" style="color: blue">Todas</a>
+                <a href="tools/hexadecimalConverter.html"
+                  >Conversor Hexadecimal e Decimal</a
+                >
+                <a href="tools/binaryConverter.html"
+                  >Conversor Binário e Decimal</a
+                >
+                <a href="tools/octalConverter.html"
+                  >Conversor Octal e Decimal</a
+                >
+                <a href="tools/base64.html">Conversor Base 64</a>
+                <a href="tools/temperatureConverter.html"
+                  >Conversor temperatura</a
+                >
+                <a href="tools/json.html">Formatar Json</a>
+                <a href="tools/cpf.html">Gerador de CPF</a>
+                <a href="tools/prime.html">Verificar número primo</a>
+                <a href="tools/circulo.html">Cálculos Circunferência</a>
+                <a href="tools/juros.html">Cálculo Juros Compostos</a>
+                <a href="tools/loren.html">Cálculo Juros Compostos</a>
+                <a href="tools/cordenadas.html">Cálculo Juros Compostos</a>
+              </div>
+            </li>
+
+            <a href="contacts.html">
+              <li id="contacts">
+                <span>Fale conosco</span>
+              </li>
+            </a>
+          </ul>
+        </nav>
+
+        <span id="copyright"> LiteDevTools &copy; 2025 </span>
       </div>
 
       <div id="pageBody">
@@ -56,73 +113,121 @@
         <div id="toolsList">
           <a href="tools/binaryConverter.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/binario.png" alt="Imagem conversor Binário"/>
+              <img
+                class="toolImage"
+                src="src/img/binario.png"
+                alt="Imagem conversor Binário"
+              />
               <p>Conversor Binário e Decimal</p>
             </div>
           </a>
           <a href="tools/hexadecimalConverter.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/hexadecimal.jpg" alt="Imagem conversor hexadecimal"/>
+              <img
+                class="toolImage"
+                src="src/img/hexadecimal.jpg"
+                alt="Imagem conversor hexadecimal"
+              />
               <p>Conversor Hexadecimal e Decimal</p>
             </div>
           </a>
           <a href="tools/octalConverter.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/octal.png" alt="Imagem conversor octal"/>
+              <img
+                class="toolImage"
+                src="src/img/octal.png"
+                alt="Imagem conversor octal"
+              />
               <p>Conversor Octal e Decimal</p>
             </div>
           </a>
           <a href="tools/base64.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/base64.png" alt="Imagem conversor base64"/>
+              <img
+                class="toolImage"
+                src="src/img/base64.png"
+                alt="Imagem conversor base64"
+              />
               <p>Conversor Base 64</p>
             </div>
           </a>
           <a href="tools/temperatureConverter.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/temp.png" alt="Imagem conversor de temperatura"/>
+              <img
+                class="toolImage"
+                src="src/img/temp.png"
+                alt="Imagem conversor de temperatura"
+              />
               <p>Conversor temperatura</p>
             </div>
           </a>
           <a href="tools/json.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/json.jpeg" alt="Imagem formatador de json"/>
+              <img
+                class="toolImage"
+                src="src/img/json.jpeg"
+                alt="Imagem formatador de json"
+              />
               <p>Formatar Json</p>
             </div>
           </a>
           <a href="tools/cpf.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/cpf.png" alt="Imagem gerador de cpf"/>
+              <img
+                class="toolImage"
+                src="src/img/cpf.png"
+                alt="Imagem gerador de cpf"
+              />
               <p>Gerador de CPF</p>
             </div>
           </a>
           <a href="tools/prime.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/images.png" alt="Imagem verificador de número primo" />
+              <img
+                class="toolImage"
+                src="src/img/images.png"
+                alt="Imagem verificador de número primo"
+              />
               <p>Verificar número primo</p>
             </div>
           </a>
           <a href="tools/circulo.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/circulo.png" alt="Imagem calculador de Circunferência"/>
+              <img
+                class="toolImage"
+                src="src/img/circulo.png"
+                alt="Imagem calculador de Circunferência"
+              />
               <p>Cálculos Circunferência</p>
             </div>
           </a>
           <a href="tools/juros.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/juros.png" alt="Imagem calculador de juros composto"/>
+              <img
+                class="toolImage"
+                src="src/img/juros.png"
+                alt="Imagem calculador de juros composto"
+              />
               <p>Cálculo Juros Compostos</p>
             </div>
           </a>
           <a href="tools/loren.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/lorem.avif" alt="Imagem gerador de lorem"/>
+              <img
+                class="toolImage"
+                src="src/img/lorem.avif"
+                alt="Imagem gerador de lorem"
+              />
               <p>Gerador de Lorem</p>
             </div>
           </a>
           <a href="tools/cordenadas.html" class="toolWrapper">
             <div class="tool">
-              <img class="toolImage" src="src/img/cordenadas.webp" alt="Imagem Consulta de cordenadas"/>
+              <img
+                class="toolImage"
+                src="src/img/cordenadas.webp"
+                alt="Imagem Consulta de cordenadas"
+              />
               <p>Consultar Cordenadas</p>
             </div>
           </a>
