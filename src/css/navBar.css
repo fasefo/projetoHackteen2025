@@ -111,4 +111,9 @@ ul.nav a li span {
 
   padding: 13px;
   border-radius: 6px;
+  top: -70px;
+}
+
+#products {
+  position: relative;
 }

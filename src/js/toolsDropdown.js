@@ -17,7 +17,7 @@ function toggleContent() {
 requestAnimationFrame(() => {
   document.addEventListener("click", function (event) {
     var content = document.getElementById("toolsContent");
-    var trigger = document.getElementById("toolsDropdownTrigger");
+    var trigger = document.getElementById("products");
     if (
       !content.contains(event.target) &&
       !trigger.contains(event.target) &&

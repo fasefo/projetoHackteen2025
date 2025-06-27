@@ -19,7 +19,7 @@ function updateNavBar() {
   size = Math.max(size, 110);
   navbar.style.setProperty("flex", "0 1 " + size + "px");
   var content = document.getElementById("toolsContent");
-  content.style.setProperty("left", size + 15 + "px");
+  content.style.setProperty("left", size + 5 + "px");
 }
 
 resizeObserver.observe(body);
