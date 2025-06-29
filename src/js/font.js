@@ -10,31 +10,19 @@ if (savedFont) {
 }
 
 function switchFont(font) {
-  sideNavBar = document.getElementById("sideNavbar");
+  pageBody = document.getElementById("pageBody");
   switch (font) {
     case "small":
       percentage = 70;
-      document.body.style.setProperty("font-size", percentage.toString() + "%");
-      sideNavBar.style.setProperty(
-        "width",
-        ((110 * percentage) / 100).toString() + "px"
-      );
+      pageBody.style.setProperty("font-size", percentage.toString() + "%");
       break;
     case "mid":
       percentage = 100;
-      document.body.style.setProperty("font-size", percentage.toString() + "%");
-      sideNavBar.style.setProperty(
-        "width",
-        ((110 * percentage) / 100).toString() + "px"
-      );
+      pageBody.style.setProperty("font-size", percentage.toString() + "%");
       break;
     case "big":
       percentage = 135;
-      document.body.style.setProperty("font-size", percentage.toString() + "%");
-      sideNavBar.style.setProperty(
-        "width",
-        ((110 * percentage) / 100).toString() + "px"
-      );
+      pageBody.style.setProperty("font-size", percentage.toString() + "%");
       break;
   }
 }
