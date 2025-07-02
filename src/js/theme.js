@@ -16,6 +16,14 @@ function switchTheme(theme) {
       document.body.style.setProperty("--text-color", "whitesmoke");
       document.body.style.setProperty("--title-color", "white");
       document.body.style.setProperty("--division-color", "#909090");
+      document.body.style.setProperty(
+        "--shadow-color",
+        "rgba(255, 255, 255, 0.07)"
+      );
+      document.body.style.setProperty(
+        "--hover-shadow-color",
+        "rgba(255, 255, 255, 0.35)"
+      );
       document
         .getElementById("configGear")
         .style.setProperty("filter", "invert(0)");
@@ -26,6 +34,11 @@ function switchTheme(theme) {
       document.body.style.setProperty("--text-color", "#555");
       document.body.style.setProperty("--title-color", "black");
       document.body.style.setProperty("--division-color", "white");
+      document.body.style.setProperty("--shadow-color", "rgba(0, 0, 0, 0.07)");
+      document.body.style.setProperty(
+        "--hover-shadow-color",
+        "rgba(0, 0, 0, 0.2)"
+      );
       document
         .getElementById("configGear")
         .style.setProperty("filter", "invert(1)");
