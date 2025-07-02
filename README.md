@@ -73,7 +73,7 @@ Veja uma demonstração de como é:
 </div>
 <br>
 <p> A linguagem HTML foi usada em nosso projeto, pois o intuito do projeto é criar uma startup e um site dela.
-  Assim como as demais liguagens, CSS com objetivo de estilizar o site da empresa, Javascript para funções e nossos produtos e por fim o editor de código ou IDLE que usamos o Visual Studio Code Nesse projeto.
+  Assim como as demais liguagens, CSS com objetivo de estilizar o site da empresa, Javascript para funções e nossos produtos e, por fim, o editor de código que usamos: o Visual Studio Code.
 </p>
 <hr>
 <h2>Autores do projeto</h2>
