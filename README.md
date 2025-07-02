@@ -56,10 +56,10 @@ Veja uma demonstração de como é:
 <hr>
 <h2>📂 Acesso ao projeto</h2>
 <br>
-<p>Você pode baixa-lo pelo próprio github em <a href="https://github.com/fasefo/projetoHackteen2025/archive/refs/heads/main.zip">arquivo zip</a> ou entrar no seu editor de código <br> e dar o seguinte comando</p>
+<p>Você pode baixa-lo pelo próprio github em <a href="https://github.com/fasefo/projetoHackteen2025/archive/refs/heads/main.zip">arquivo zip</a> ou, caso possua git instalado na sua máquina, executando o seguinte comando via terminal: <br> Não se esqueça de navegar para o diretório onde deseja baixar o repositório</p>
 
 ```
- git clone # URL de nosso repositório
+ git clone https://github.com/fasefo/projetoHackteen2025.git
 ```
 <br>
 <hr>
