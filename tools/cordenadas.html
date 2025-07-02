@@ -12,21 +12,54 @@
   <body>
     <div id="container">
       <div id="pageBody">
-        <a href="../products.html" style="margin-right: auto; margin-left: 30px">
+        <div class="configurations">
+          <img
+            src="../src/img/settings-gear.svg"
+            alt="configurações"
+            id="configGear"
+          />
+          <div class="configDropdown" id="configDropdown">
+            <select name="themeChoice" id="themeChoice">
+              <option value="light">Tema claro</option>
+              <option value="dark">Tema escuro</option>
+            </select>
+            <select name="fontChoice" id="fontChoice">
+              <option value="small">Fonte pequena</option>
+              <option value="mid">Fonte normal</option>
+              <option value="big">Fonte grande</option>
+            </select>
+            <br />
+          </div>
+        </div>
+        <a
+          href="../products.html"
+          style="margin-right: auto; margin-left: 30px"
+        >
           <button>Voltar para Ferramentas</button>
         </a>
-        <h1 class="title" style="margin-bottom: 30px">Gerador de Coordenadas</h1>
+        <h1 class="title" style="margin-bottom: 30px">
+          Gerador de Coordenadas
+        </h1>
 
         <div class="generalText division" style="text-align: center">
           <label for="endereco">Digite o endereço:</label><br />
-          <input type="text" id="endereco" placeholder="Ex: Rua 25 de Março, São Paulo" /><br /><br />
+          <input
+            type="text"
+            id="endereco"
+            placeholder="Ex: Rua 25 de Março, São Paulo"
+          /><br /><br />
           <button id="buscarEndereco">Buscar Coordenadas</button>
           <p id="resultado" style="margin-top: 20px; font-weight: bold"></p>
-          <a id="linkGoogleMaps" href="#" target="_blank" style="display: none;">Abrir no Google Maps</a>
+          <a id="linkGoogleMaps" href="#" target="_blank" style="display: none"
+            >Abrir no Google Maps</a
+          >
         </div>
       </div>
     </div>
 
-    <script src="../src/js/cordenadas.js"></script
+    <script src="../src/js/cordenadas.js"></script>
+    <script src="../src/js/theme.js"></script>
+    <script src="../src/js/font.js"></script>
+    <script src="../src/js/config.js"></script>
   </body>
 </html>

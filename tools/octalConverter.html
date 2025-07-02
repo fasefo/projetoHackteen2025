@@ -12,7 +12,29 @@
   <body>
     <div id="container">
       <div id="pageBody">
-        <a href="../products.html" style="margin-right: auto; margin-left: 30px">
+        <div class="configurations">
+          <img
+            src="../src/img/settings-gear.svg"
+            alt="configurações"
+            id="configGear"
+          />
+          <div class="configDropdown" id="configDropdown">
+            <select name="themeChoice" id="themeChoice">
+              <option value="light">Tema claro</option>
+              <option value="dark">Tema escuro</option>
+            </select>
+            <select name="fontChoice" id="fontChoice">
+              <option value="small">Fonte pequena</option>
+              <option value="mid">Fonte normal</option>
+              <option value="big">Fonte grande</option>
+            </select>
+            <br />
+          </div>
+        </div>
+        <a
+          href="../products.html"
+          style="margin-right: auto; margin-left: 30px"
+        >
           <button>Voltar para Ferramentas</button>
         </a>
         <h1 class="title" style="margin-bottom: 30px">
@@ -29,6 +51,9 @@
         </div>
 
         <script src="../src/js/convertOctal.js"></script>
+        <script src="../src/js/theme.js"></script>
+        <script src="../src/js/font.js"></script>
+        <script src="../src/js/config.js"></script>
       </div>
     </div>
   </body>

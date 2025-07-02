@@ -87,4 +87,6 @@ h2.title {
   color: whitesmoke;
   font-size: 0.9em;
   font-weight: bold;
+
+  box-shadow: none;
 }
