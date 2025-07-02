@@ -66,12 +66,15 @@ Veja uma demonstração de como é:
 <h2>Tecnologias utilizadas</h2>
 <p>Abaixo temos as linguagens e outras tecnologias que foram usadas no desenvolvimento do projeto</p>
 <div style="display: flex; gap: 10px;">
-  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"> 
   <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code">
 </div>
 <br>
+<p> A linguagem HTML foi usada em nosso projeto, pois o intuito do projeto é criar uma startup e um site dela.
+  Assim como as demais liguagens, CSS com objetivo de estilizar o site da empresa, Javascript para funções e nossos produtos e por fim o editor de código ou IDLE que usamos o Visual Studio Code Nesse projeto.
+</p>
 <hr>
 <h2>Autores do projeto</h2>
 <br>
@@ -96,7 +99,7 @@ Veja uma demonstração de como é:
       </a>
     </td>
        <td align="center">
-      <a href="https://github.com/fasefo" target="_blank">
+      <a href="https://github.com/Gabriel Pantojo Benetti Dias" target="_blank">
         <img src="src/img/Devs_04.jpg" width="100px" alt="Gabriel Pantojo Benetti Dias"/><br/>
         <sub><b>Gabriel Pantojo Benetti Dias</b></sub>
       </a>
