@@ -115,5 +115,7 @@ ul.nav a li span {
 
   padding: 13px;
   border-radius: 6px;
-  bottom: 40px;
+  bottom: 10px;
+  height: 80vh;
+  overflow-y: scroll;
 }
