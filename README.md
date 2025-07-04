@@ -50,7 +50,7 @@ Veja uma demonstração de como é:
 - `Barra de pesquisa`: a barra de pesquisa usada por muitos sites de empresas, foi colocado para melhor navegação.
 - `Alteração de tema`: O usuário pode configurar para qual tema melhorar preferir, seja claro ou escuro como mostrado acima.
 - `Alteração da fonte`: Para usuários que tem dificuldade de visão ou não conseguem ler direito podem adaptar o site para seu uso.
-- `Carrosel imagens`: Onde fica passando imagens das ferramentas do nosso projeto. Se encontra em desenvolvimento.
+- `Carrosel imagens`: Onde fica passando imagens das ferramentas do nosso projeto. 
 <br>
 <br>
 <hr>
