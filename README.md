@@ -102,7 +102,7 @@ Para abrir o projeto, basta abrir index.html
       </a>
     </td>
        <td align="center">
-      <a href="https://github.com/Gabriel P" target="_blank">
+      <a href="https://github.com/GGG12121212 Gabriel P" target="_blank">
         <img src="src/img/Devs_04.jpg" width="100px" alt="Gabriel Pantojo Benetti Dias"/><br/>
         <sub><b>Gabriel Pantojo Benetti Dias</b></sub>
       </a>
