@@ -10,6 +10,7 @@ if (savedTheme) {
 }
 
 function switchTheme(theme) {
+  const elements = document.querySelectorAll(".githubLogo");
   switch (theme) {
     case "dark":
       document.body.style.setProperty("--bg-color", "#1b1d1e");
@@ -33,6 +34,11 @@ function switchTheme(theme) {
       document
         .getElementById("configGear")
         .style.setProperty("filter", "invert(0)");
+
+      elements.forEach((el) => {
+        el.style.setProperty("filter", "invert(0)");
+      });
+
       break;
     case "light":
       document.body.style.setProperty("--bg-color", "#e0f7ff9e");
@@ -56,6 +62,11 @@ function switchTheme(theme) {
       document
         .getElementById("configGear")
         .style.setProperty("filter", "invert(1)");
+
+      elements.forEach((el) => {
+        el.style.setProperty("filter", "invert(0)");
+      });
+
       break;
     case "contrast":
       document.body.style.setProperty("--bg-color", "#1E1E2F");
@@ -73,6 +84,11 @@ function switchTheme(theme) {
       document
         .getElementById("configGear")
         .style.setProperty("filter", "invert(0)");
+
+      elements.forEach((el) => {
+        el.style.setProperty("filter", "invert(1)");
+      });
+
       break;
   }
 }
