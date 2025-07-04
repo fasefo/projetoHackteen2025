@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Conversor de RGB para HEX</title>
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/pageBody.css" />
+    <link rel="stylesheet" href="../src/css/tools.css" />
+</head>
+<body>
+     <div id="container">
+      <div id="pageBody">
+        <div class="configurations">
+          <img
+            src="../src/img/settings-gear.svg"
+            alt="configurações"
+            id="configGear"
+          />
+            <div class="configDropdown" id="configDropdown">
+            <select name="themeChoice" id="themeChoice">
+              <option value="light">Tema claro</option>
+              <option value="dark">Tema escuro</option>
+            </select>
+            <select name="fontChoice" id="fontChoice">
+              <option value="small">Fonte pequena</option>
+              <option value="mid">Fonte normal</option>
+              <option value="big">Fonte grande</option>
+            </select>
+            <br />
+          </div>
+        </div>
+        <a
+          href="../products.html"
+          style="margin-right: auto; margin-left: 30px"
+        >
+          <button>Voltar para Ferramentas</button>
+        </a>
+        <div class="generalText division" style="text-align: center">
+        <h1>Conversor de Cores RGB a HEX</h1>
+        <br>
+           <div class="fieldGroup">
+            <label for="hex">HEX:</label>
+            <input type="text" id="hex" placeholder="#ff0000" oninput="converterHex()">
+            <button class="copyBtn" onclick="copiar('hex')">Copiar HEX</button>
+           </div>
+           <br>
+            <div class="fieldGroup">
+            <label for="rgb">RGB:</label>
+            <input type="text" id="rgb" placeholder="255, 0, 0" oninput="converterRgb()">
+            <button class="copyBtn" onclick="copiar('rgb')">Copiar RGB</button>
+            </div>
+
+            <div id="corPreview"></div>
+        </div>
+        </div>
+        </div>
+      <script src="../src/js/convertRGB.js"></script>
+      <script src="../src/js/theme.js"></script>
+      <script src="../src/js/font.js"></script>
+      <script src="../src/js/config.js"></script>
+</body>
+</html>
