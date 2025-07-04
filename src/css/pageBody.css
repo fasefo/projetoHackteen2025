@@ -59,7 +59,7 @@ h2.title {
 }
 
 .configDropdown {
-  background-color: gray;
+  background-color: var(--navbar-bg-color);
   opacity: 0;
   transform: translateY(-10px);
 
@@ -84,7 +84,7 @@ h2.title {
 
   cursor: pointer;
 
-  color: whitesmoke;
+  color: var(--navbar-text-color);
   font-size: 0.9em;
   font-weight: bold;
 

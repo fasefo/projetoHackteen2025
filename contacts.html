@@ -85,6 +85,7 @@
             <select name="themeChoice" id="themeChoice">
               <option value="light">Tema claro</option>
               <option value="dark">Tema escuro</option>
+              <option value="contrast">Alto Constraste</option>
             </select>
             <select name="fontChoice" id="fontChoice">
               <option value="small">Fonte pequena</option>
@@ -104,10 +105,21 @@
                 >
                 <br /><br />
                 <label for="subject">Assunto:</label><br />
-                <input type="text" id="subject" name="subject" required /><br /><br />
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                /><br /><br />
 
                 <label for="body">Mensagem:</label><br />
-                <textarea id="body" name="body" rows="5" cols="40" required></textarea
+                <textarea
+                  id="body"
+                  name="body"
+                  rows="5"
+                  cols="40"
+                  required
+                ></textarea
                 ><br /><br />
 
                 <button id="emailButton" type="button" onclick="sendEmail()">

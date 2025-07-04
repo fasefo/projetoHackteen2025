@@ -24,10 +24,15 @@ function switchTheme(theme) {
         "--hover-shadow-color",
         "rgba(255, 255, 255, 0.35)"
       );
+
+      document.body.style.setProperty("--navbar-bg-color", "rgb(54, 54, 54)");
+      document.body.style.setProperty("--navbar-text-color", "white");
+      document.body.style.setProperty("--navbar-bg-hover", "rgb(75, 75, 75)");
+      document.body.style.setProperty("--navbar-active", "rgb(99, 99, 99)");
+
       document
         .getElementById("configGear")
         .style.setProperty("filter", "invert(0)");
-      break;
       break;
     case "light":
       document.body.style.setProperty("--bg-color", "#e0f7ff9e");
@@ -39,9 +44,35 @@ function switchTheme(theme) {
         "--hover-shadow-color",
         "rgba(0, 0, 0, 0.2)"
       );
+
+      document.body.style.setProperty("--navbar-bg-color", "gray");
+      document.body.style.setProperty("--navbar-text-color", "whitesmoke");
+      document.body.style.setProperty(
+        "--navbar-bg-hover",
+        "rgb(101, 101, 101)"
+      );
+      document.body.style.setProperty("--navbar-active", "rgb(156, 156, 156)");
+
       document
         .getElementById("configGear")
         .style.setProperty("filter", "invert(1)");
+      break;
+    case "contrast":
+      document.body.style.setProperty("--bg-color", "#1E1E2F");
+      document.body.style.setProperty("--text-color", "#EAEAEA");
+      document.body.style.setProperty("--title-color", "#FFD700");
+      document.body.style.setProperty("--division-color", "#2C2C3C");
+      document.body.style.setProperty("--shadow-color", "#ffe1004d");
+      document.body.style.setProperty("--hover-shadow-color", "#ffe100d4");
+
+      document.body.style.setProperty("--navbar-bg-color", "rgb(3, 3, 7)");
+      document.body.style.setProperty("--navbar-text-color", "#00FFFF");
+      document.body.style.setProperty("--navbar-bg-hover", "rgb(42, 42, 84)");
+      document.body.style.setProperty("--navbar-active", "rgb(104, 104, 185)");
+
+      document
+        .getElementById("configGear")
+        .style.setProperty("filter", "invert(0)");
       break;
   }
 }
