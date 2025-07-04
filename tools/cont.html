@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contador de Caracteres e palavras</title>
     <link rel="stylesheet" href="../src/css/style.css" />
     <link rel="stylesheet" href="../src/css/pageBody.css" />
     <link rel="stylesheet" href="../src/css/tools.css" />
-</head>
-<body>
-     <div id="container">
+  </head>
+  <body>
+    <div id="container">
       <div id="pageBody">
         <div class="configurations">
           <img
@@ -17,10 +17,11 @@
             alt="configurações"
             id="configGear"
           />
-            <div class="configDropdown" id="configDropdown">
+          <div class="configDropdown" id="configDropdown">
             <select name="themeChoice" id="themeChoice">
               <option value="light">Tema claro</option>
               <option value="dark">Tema escuro</option>
+              <option value="contrast">Alto Constraste</option>
             </select>
             <select name="fontChoice" id="fontChoice">
               <option value="small">Fonte pequena</option>
@@ -37,18 +38,23 @@
           <button>Voltar para Ferramentas</button>
         </a>
         <div class="generalText division" style="text-align: center">
-        <h1>📝 Contador de Caracteres e Palavras</h1>
-        <textarea id="texto" placeholder="Digite aqui..." oninput="contarTexto()" style="width: 550px; height: 250px;" ></textarea>
-        <div class="contagem">
-            Caracteres: <span id="caracteres">0</span><br>
+          <h1>📝 Contador de Caracteres e Palavras</h1>
+          <textarea
+            id="texto"
+            placeholder="Digite aqui..."
+            oninput="contarTexto()"
+            style="width: 550px; height: 250px"
+          ></textarea>
+          <div class="contagem">
+            Caracteres: <span id="caracteres">0</span><br />
             Palavras: <span id="palavras">0</span>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
-      <script src="../src/js/cont.js"></script>
-      <script src="../src/js/theme.js"></script>
-      <script src="../src/js/font.js"></script>
-      <script src="../src/js/config.js"></script>
-</body>
+    <script src="../src/js/cont.js"></script>
+    <script src="../src/js/theme.js"></script>
+    <script src="../src/js/font.js"></script>
+    <script src="../src/js/config.js"></script>
+  </body>
 </html>
